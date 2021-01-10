@@ -1,12 +1,12 @@
 import React, { useContext } from "react";
 import "./ProudOf.css";
-import AchievementCard from "../../components/achievementCard/AchievementCard";
-import { achievementSection } from "../../portfolio";
+import ProudCard from "../../components/proudCard/ProudCard";
+import { proudOfSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 export default function ProdudOf() {
   const { isDark } = useContext(StyleContext);
-  if (!achievementSection.display) {
+  if (!proudOfSection.display) {
     return null;
   }
   return (
@@ -21,7 +21,7 @@ export default function ProdudOf() {
                   : "heading achievement-heading"
               }
             >
-              {achievementSection.title}
+              {proudOfSection.title}
             </h1>
             <p
               className={
@@ -30,13 +30,13 @@ export default function ProdudOf() {
                   : "subTitle achievement-subtitle"
               }
             >
-              {achievementSection.subtitle}
+              {proudOfSection.subtitle}
             </p>
           </div>
           <div className="achievement-cards-div">
-            {achievementSection.achievementsCards.map((card,i) => {
+            {proudOfSection.proudCard.map((card,i) => {
               return (
-                <AchievementCard
+                <ProudCard
                   key={i}
                   isDark={isDark}
                   cardInfo={{

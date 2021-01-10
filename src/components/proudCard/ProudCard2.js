@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function AchivementCard({ cardInfo }) {
+export default function ProudCard2({ cardInfo }) {
   function openUrlInNewTab(url) {
     var win = window.open(url, "_blank");
     win.focus();

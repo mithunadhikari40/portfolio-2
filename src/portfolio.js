@@ -53,8 +53,8 @@ const socialMediaLinks = {
   facebook: 'https://www.facebook.com/adhikari.mithun.3/',
   medium: 'https://mithunadhikari.medium.com/',
   stackoverflow: 'https://stackoverflow.com/users/6745813/mithun-adhikari',
-  Instagram:"https://www.instagram.com/adhikari_mithun/",
-  twitter:"https://twitter.com/real_mithun",
+  Instagram: "https://www.instagram.com/adhikari_mithun/",
+  twitter: "https://twitter.com/real_mithun",
   // Instagram and Twitter are also supported in the links!
   display: true, // Set true to display this section, defaults to false
 };
@@ -220,7 +220,7 @@ const workExperiences = {
       company: 'Microsoft Innovation Center, Nepal',
       companylogo: require('./assets/images/unlimited_logo.png'),
       date: 'Aug 2017 – Feb 2020',
-      desc:'Leading Software Development Company Focused on Machine Learning, Artificial Intelligence, Big Data, NLP (Natural Language Processing), Mobile Application, Web Application, Cloud solutions, Database Solution.',
+      desc: 'Leading Software Development Company Focused on Machine Learning, Artificial Intelligence, Big Data, NLP (Natural Language Processing), Mobile Application, Web Application, Cloud solutions, Database Solution.',
     },
     {
       role: 'Flutter Instructor',
@@ -318,7 +318,85 @@ const achievementSection = {
         },
       ],
     },
-    
+
+  ],
+  display: true, // Set false to hide this section, defaults to true
+};
+
+// what I am proud of section
+const proudOfSection = {
+  title: emoji('What I am proud of 🏆 '),
+  subtitle:
+    'Something I have done, or something I have been a part of which helped people make their life easier.',
+
+  proudCard: [
+    {
+      title: 'Reconstruction Information Management System',
+      subtitle:
+        `RIMS was used to mobilize, visualize, and manage data of 26,912 houses in Gorkha,
+          which were damaged by the Earthquake of 2015. UNDP Nepal, 
+          helped those households to rebuild their houses. 
+          I feel proud to be a member of the team that developed, 
+          maintained, and mobilized the system, 
+          which helped 26,912 households to rebuild their houses.
+          The project implemented is known as Gorkha Housing Reconstruction Project (GHRP)`,
+      image: require('./assets/images/rims_house.jpg'),
+      footerLink: [
+        {
+          name: 'Report',
+          url:
+            'https://www.np.undp.org/content/nepal/en/home/projects/GHRP.html',
+        },
+        {
+          name: 'Facebook',
+          url:
+            'https://www.facebook.com/ODRCUNDP/',
+        },
+        {
+          name: 'Status',
+          url:
+            'https://www.np.undp.org/content/nepal/en/home/projects/GHRP-FAQ.html',
+        },
+      ],
+    },
+    {
+      title: 'Post-Flood Recovery Management System',
+      subtitle:
+        `Post-Flood Recovery management system was used to mobilize, visualize, and manage data of over 31,800 houses in Sunsari, Saptari, Sarlahi, Dhanusha, Mahottari, Rautahat, and Parsa districts, which were damaged by the Flood of 2017. The project was funded by China and implemented by UNDP through which at the field level collaborated with newly elected governments in carrying out the distribution of a package of non-food items, which includes shawls, blankets, cooking utensils, and many more.`,
+      image: require('./assets/images/post_flood.jpg'),
+      footerLink: [
+        {
+          name: 'See more',
+          url:
+            'https://www.np.undp.org/content/nepal/en/home/presscenter/pressreleases/2018/China-UNDP-partnership-for-post-flood-recovery-in-Terai.html',
+        },
+      ],
+    },
+    {
+      title: 'Golden 1000 days',
+      subtitle: `G1K Days system was used to carry out the training, information management, and awareness program. The Government of Nepal, the European Union and
+      UNICEF launched the national “Golden 1000 days Public Awareness Campaign”.
+       Led by the National Planning Commission (NPC),
+        the campaign aims to raise the awareness of
+         the unique window of opportunity between a women’s pregnancy
+          and her child’s second birthday, to shape a healthier 
+        and a more prosperous future. G1K also aimed at going completely digital.`,
+      image: require('./assets/images/g1k_pic.png'),
+      footerLink: [
+        { name: 'See more', url: 'https://blogs.worldbank.org/endpovertyinsouthasia/engaging-communities-golden-1000-days-nepal' },
+        {
+          name: 'See more',
+          url: 'https://scalingupnutrition.org/news/a-huge-launch-for-nepals-golden-1000-days-awareness-campaign/',
+        },
+        {
+          name: 'Report',
+          url: 'http://scalingupnutrition.org/wp-content/uploads/2016/06/Report-The-Golden-1000-Days-Public-Awareness-Campaign-Promoters-Announcement-Program.pdf',
+        },
+
+
+      ],
+    },
+
   ],
   display: true, // Set false to hide this section, defaults to true
 };
@@ -415,4 +493,5 @@ export {
   podcastSection,
   contactInfo,
   twitterDetails,
+  proudOfSection
 };

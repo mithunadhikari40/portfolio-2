@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProudCard.css";
 
-export default function AchievementCard({ cardInfo, isDark }) {
+export default function ProdudCard({ cardInfo, isDark }) {
   function openUrlInNewTab(url) {
     var win = window.open(url, "_blank");
     win.focus();
