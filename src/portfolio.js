@@ -63,14 +63,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: emoji(
+    '🚀 Enterprenour/ IT Instructor/ Software Engineer, who wants to help people make their life easier'
+  ),
   skills: [
     emoji(
       '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
     ),
-    emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
+    emoji('⚡ Teach Morden Tech Stack to help you land a job.'),
     emoji(
-      '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
+      '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean / Azure / GCP.'
     ),
   ],
 
@@ -130,6 +132,14 @@ https://fontawesome.com/icons?d=gallery */
       skillName: 'docker',
       fontAwesomeClassname: 'fab fa-docker',
     },
+    {
+      skillName: 'flutter',
+      fontAwesomeClassname: 'fab fa-flutter',
+    },
+    {
+      skillName: 'android',
+      fontAwesomeClassname: 'fab fa-android',
+    },
   ],
   display: true, // Set false to hide this section, defaults to true
 };
@@ -140,32 +150,33 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: 'Harvard University',
-      logo: require('./assets/images/harvardLogo.png'),
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
+      schoolName: 'Nepal College Of Information Technology',
+      logo: require('./assets/images/ncit_logo.jpg'),
+      subHeader: 'Bachelor in Software Engineering.',
+      duration: 'OCt 2014 - Oct 2018',
+      // desc: 'Participated in the research of XXX and published 3 papers.',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'I got a 4-year full scholarship.',
+        'I scored 4 GPA in the 8th Semester',
+        'I was Class topper/Second topper for multiple occassions.',
       ],
     },
-    {
-      schoolName: 'Stanford University',
-      logo: require('./assets/images/stanfordLogo.png'),
-      subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'September 2013 - April 2017',
-      desc:
-        'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
-      descBullets: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit'],
-    },
+    // {
+    //   schoolName: 'Stanford University',
+    //   logo: require('./assets/images/stanfordLogo.png'),
+    //   subHeader: 'Bachelor of Science in Computer Science',
+    //   duration: 'September 2013 - April 2017',
+    //   desc:
+    //     'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
+    //   descBullets: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit'],
+    // },
   ],
 };
 
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: 'Frontend/Design', //Insert stack or technology you have experience in
@@ -189,32 +200,39 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: 'Software Engineer',
-      company: 'Facebook',
-      companylogo: require('./assets/images/facebookLogo.png'),
-      date: 'June 2018 – Present',
+      role: 'Co-Founder',
+      company: 'Spyro Infosys Pvt. Ltd.',
+      companylogo: require('./assets/images/spyro_logo.jpg'),
+      date: 'Feb 2020 – Present',
       desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'Leading IT Training Institude Company Focused on trasforming today\'s students to tomorrow\'s professionals.',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Training on Mobile and Web app design and development',
+        'Training on Artifical Intelligence, Machine learning',
+        'Training on Cloud and Database Solutions',
+        'Training on Graphics Design',
+        'Training on SEO Managements',
+        'Training on Process Automation',
+
+
+
+
       ],
     },
     {
-      role: 'Front-End Developer',
-      company: 'Quora',
-      companylogo: require('./assets/images/quoraLogo.png'),
-      date: 'May 2017 – May 2018',
-      desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      role: 'Software Developer',
+      company: 'Microsoft Innovation Center, Nepal',
+      companylogo: require('./assets/images/unlimited_logo.png'),
+      date: 'Aug 2017 – Feb 2020',
+      desc:'Leading Software Development Company Focused on Machine Learning, Artificial Intelligence, Big Data, NLP (Natural Language Processing), Mobile Application, Web Application, Cloud solutions, Database Solution.',
     },
     {
-      role: 'Software Engineer Intern',
-      company: 'Airbnb',
-      companylogo: require('./assets/images/airbnbLogo.png'),
-      date: 'Jan 2015 – Sep 2015',
+      role: 'Flutter Instructor',
+      company: 'Broadway Infosys',
+      companylogo: require('./assets/images/broadway_logo.jpg'),
+      date: 'Nov 2018 – Apr 2020',
       desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'Broadway Infosys Nepal is one of the best inclusive computer training institutes in Kathmandu, Nepal.',
     },
   ],
 };
@@ -306,7 +324,7 @@ const achievementSection = {
       ],
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -339,15 +357,19 @@ const blogSection = {
 const talkSection = {
   title: 'TALKS',
   subtitle: emoji(
-    'I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET TO KNOW PEOPLE'
+    'I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET TO INTERACT WITH PEOPLE.'
   ),
 
   talks: [
     {
-      title: 'Build Actions For Google Assistant',
-      subtitle: 'Codelab at GDG DevFest Karachi 2019',
-      slides_url: 'https://bit.ly/saadpasta-slides',
-      event_url: 'https://www.facebook.com/events/2339906106275053/',
+      title: 'Microsoft Build Session!      ',
+      subtitle: 'Azure and Database Management Session at Unlimited Technology, Kathmandu',
+      event_url: 'https://www.facebook.com/nayna.shakya/posts/10157396490368324',
+    },
+    {
+      title: 'Data mobilization in RIMS',
+      subtitle: 'Working with UNDP Nepal team to enhance the app/web application that helps mobilize data of more than 26900 beneficiaries.UNDP Nepal with Government of India is providing support to reconstruct earthquake affected houses in Gorkha and Unlimited technology is providing technology solution through cloud, mobile/web application, data management.',
+      event_url: 'https://www.facebook.com/nayna.shakya/posts/10157758860013324',
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -363,7 +385,7 @@ const podcastSection = {
   podcast: [
     'https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo',
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
