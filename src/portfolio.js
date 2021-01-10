@@ -9,35 +9,52 @@ const illustration = {
 };
 
 const greeting = {
-  username: 'Saad Pasta',
-  title: "Hi all, I'm Saad",
+  username: 'Mithun Adhikari',
+  title: "Hi there, I'm Mithun",
   subTitle: [
     {
       title: emoji(
-        'A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.'
+        '🚀 An Enterpreuner, Co-Founder at Spryo Infosys.'
       ),
-      item: [
+    },
+    {
+      title: emoji(
+        '🚀 IT Instructor, Previously worked at Broadway Infosys.'
+      ),
+    },
+    {
+      title: emoji(
+        '🚀 A passionate Full Stack Software Developer having an experience of building-'
+      ),
+      items: [
         emoji(
-          'A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.'
+          '• Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Flutter / Android and some other cool libraries and frameworks.'
+        ),
+        emoji(
+          '• Cloud solutions with GCP, Azure, and DigitelOcean.'
+        ),
+        emoji(
+          '• Database Solutions with MSSQL, Oracle, MySQL, and MongoDB.'
         )
       ]
     }
   ],
   resumeLink:
-    'https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing',
+    'https://drive.google.com/file/d/1WAP66YqE_PCGN0Z660EUtLriIT-_m109/view?usp=sharing',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: 'https://github.com/saadpasta',
-  linkedin: 'https://www.linkedin.com/in/saadpasta/',
-  gmail: 'saadpasta70@gmail.com',
-  gitlab: 'https://gitlab.com/saadpasta',
-  facebook: 'https://www.facebook.com/saad.pasta7',
-  medium: 'https://medium.com/@saadpasta',
-  stackoverflow: 'https://stackoverflow.com/users/10422806/saad-pasta',
+  github: 'https://github.com/mithunadhikari40',
+  linkedin: 'https://www.linkedin.com/in/adhikari-mithun-570474119/',
+  gmail: 'mithunadhikari40@gmail.com',
+  facebook: 'https://www.facebook.com/adhikari.mithun.3/',
+  medium: 'https://mithunadhikari.medium.com/',
+  stackoverflow: 'https://stackoverflow.com/users/6745813/mithun-adhikari',
+  Instagram:"https://www.instagram.com/adhikari_mithun/",
+  twitter:"https://twitter.com/real_mithun",
   // Instagram and Twitter are also supported in the links!
   display: true, // Set true to display this section, defaults to false
 };
@@ -322,7 +339,7 @@ const blogSection = {
 const talkSection = {
   title: 'TALKS',
   subtitle: emoji(
-    'I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅'
+    'I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET TO KNOW PEOPLE'
   ),
 
   talks: [
@@ -353,14 +370,14 @@ const contactInfo = {
   title: emoji('Contact Me ☎️'),
   subtitle:
     'Discuss a project or just want to say hi? My Inbox is open for all.',
-  number: '+92-3243454077',
-  emailAddress: 'saadpasta70@gmail.com',
+  number: '+977-984701199',
+  emailAddress: 'mithunadhikari40@gmail.com',
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: 'twitter', //Replace "twitter" with your twitter username without @
+  userName: 'real_mithun', //Replace "twitter" with your twitter username without @
   display: true, // Set true to display this section, defaults to false
 };
 

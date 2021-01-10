@@ -29,18 +29,30 @@ export default function Greeting() {
                 <span className="wave-emoji">{emoji('👋')}</span>
               </h1>
               {greeting.subTitle.map((each, idx) => {
-              return  <p
-              key={idx}
-                className={
-                  isDark
-                    ? 'dark-mode greeting-text-p'
-                    : 'greeting-text-p subTitle'
-                }
-              >
-                {each.title}
-              </p>
+                return <p
+                  key={idx}
+                  className={
+                    isDark
+                      ? 'dark-mode greeting-text-p'
+                      : 'greeting-text-p subTitle'
+                  }
+                >
+                  {each.title}
+                  {each.items && each.items.map((item, idx) => {
+                    return <p
+                      key={idx}
+                      className={
+                        isDark
+                          ? 'dark-mode greeting-text-p-line'
+                          : 'greeting-text-p-line'
+                      }
+                    >
+                      {item}
+                    </p>
+                  })}
+                </p>
               })}
-              
+
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
@@ -56,11 +68,11 @@ export default function Greeting() {
             {illustration.animated ? (
               <DisplayLottie animationData={landingPerson} />
             ) : (
-              <img
-                alt="man sitting on table"
-                src={require('../../assets/images/manOnTable.svg')}
-              ></img>
-            )}
+                <img
+                  alt="man sitting on table"
+                  src={require('../../assets/images/manOnTable.svg')}
+                ></img>
+              )}
           </div>
         </div>
       </div>
