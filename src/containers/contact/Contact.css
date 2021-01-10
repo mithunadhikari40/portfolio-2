@@ -37,6 +37,7 @@
 
 .contact-text-div {
   margin-top: 1.5rem;
+  text-align: start;
 }
 
 .contact-margin-top {
@@ -70,8 +71,9 @@
   }
 
   .contact-text-div {
-    text-align: center;
-    margin-top: 1.5rem;
+    text-align: start;
+    margin-top: 0.5rem;
+
   }
 
   .contact-detail,

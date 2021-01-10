@@ -213,10 +213,6 @@ const workExperiences = {
         'Training on Graphics Design',
         'Training on SEO Managements',
         'Training on Process Automation',
-
-
-
-
       ],
     },
     {
@@ -242,7 +238,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: 'saadpasta', // Change to your github username to view your profile in Contact Section.
+  githubUserName: 'mithunadhikari40', // Change to your github username to view your profile in Contact Section.
   showGithubProfile: 'true', // Set true or false to show Contact profile using Github, defaults to true
   display: true, // Set false to hide this section, defaults to true
 };
@@ -310,7 +306,6 @@ const achievementSection = {
         },
       ],
     },
-
     {
       title: 'PWA Web App Developer',
       subtitle: 'Completed Certifcation from SMIT for PWA Web App Development',
@@ -323,8 +318,9 @@ const achievementSection = {
         },
       ],
     },
+    
   ],
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -337,16 +333,16 @@ const blogSection = {
   blogs: [
     {
       url:
-        'https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae',
-      title: 'Win a Google Assistant Tshirt and $200 in Google Cloud Credits',
+        'https://mithunadhikari.medium.com/should-you-try-all-the-popular-programming-languages-and-frameworks-721a5989f873',
+      title: 'Should you try all the popular programming languages and frameworks?',
       description:
-        'Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?',
+        'A little word of advice for students and people starting to learn programming on how you should and should not start learning.',
     },
     {
-      url: 'https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e',
-      title: 'Why REACT is The Best?',
+      url: 'https://drive.google.com/file/d/1mOUu4Bkm-Y-LkvY1ErkRp4BmgQ7MVeyr/view?usp=sharing',
+      title: 'Customizing the Bigbuebutton Greenlight Customization',
       description:
-        'React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.',
+        'A comprehensive guide on how to set up BigBlueButton (https://bigbluebutton.org/) on your server. If you\'re trying to create a video conferencing system for your office/school for free,then BBB is your go to option.',
     },
   ],
   display: true, // Set false to hide this section, defaults to true
