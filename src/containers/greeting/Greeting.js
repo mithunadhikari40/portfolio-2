@@ -28,15 +28,19 @@ export default function Greeting() {
                 {greeting.title}{' '}
                 <span className="wave-emoji">{emoji('👋')}</span>
               </h1>
-              <p
+              {greeting.subTitle.map((each, idx) => {
+              return  <p
+              key={idx}
                 className={
                   isDark
                     ? 'dark-mode greeting-text-p'
                     : 'greeting-text-p subTitle'
                 }
               >
-                {greeting.subTitle}
+                {each.title}
               </p>
+              })}
+              
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
