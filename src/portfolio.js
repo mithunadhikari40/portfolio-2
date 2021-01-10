@@ -19,7 +19,7 @@ const greeting = {
     },
     {
       title: emoji(
-        '🚀 IT Instructor, Previously worked at Broadway Infosys.'
+        '🚀 IT Instructor, Worked at Broadway Infosys.'
       ),
     },
     {
@@ -28,13 +28,13 @@ const greeting = {
       ),
       items: [
         emoji(
-          '• Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Flutter / Android and some other cool libraries and frameworks.'
+          '1• Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Flutter / Android and some other cool libraries and frameworks.'
         ),
         emoji(
-          '• Cloud solutions with GCP, Azure, and DigitelOcean.'
+          '2• Cloud solutions with GCP, Azure, and DigitelOcean.'
         ),
         emoji(
-          '• Database Solutions with MSSQL, Oracle, MySQL, and MongoDB.'
+          '3• Database Solutions with MSSQL, Oracle, MySQL, and MongoDB.'
         )
       ]
     }
@@ -258,7 +258,7 @@ const bigProjects = {
       link: 'http://nextu.se/',
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Achievement Section

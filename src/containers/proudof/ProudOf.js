@@ -11,7 +11,7 @@ export default function ProdudOf() {
   }
   return (
     <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="achievements">
+      <div className="main" id="iamproudof">
         <div className="achievement-main-div">
           <div className="achievement-header">
             <h1
