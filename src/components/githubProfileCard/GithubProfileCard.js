@@ -30,9 +30,12 @@ export default function GithubProfileCard({prof}) {
                 isDark ? 'dark-mode contact-text-div' : 'contact-text-div'
               }
             >
+               <p>
+                {contactInfo.name}
+              </p>
               <a
                 className="contact-detail-email"
-                href={'mailto:' + contactInfo.email_address}
+                href={'mailto:' + contactInfo.emailAddress}
               >
                 {contactInfo.emailAddress}
               </a>

@@ -14,7 +14,7 @@ const greeting = {
   subTitle: [
     {
       title: emoji(
-        '🚀 An Enterpreuner, Co-Founder at Spryo Infosys.'
+        '🚀 Entrepreneur, Co-Founder at Spyro Infosys.'
       ),
     },
     {
@@ -24,7 +24,7 @@ const greeting = {
     },
     {
       title: emoji(
-        '🚀 A passionate Full Stack Software Developer having an experience of building-'
+        '🚀 A passionate Full Stack Software Developer having experience in building-'
       ),
       items: [
         emoji(
@@ -68,7 +68,7 @@ const skillsSection = {
   ),
   skills: [
     emoji(
-      '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
+      '⚡ Develop highly interactive Front end/ Back end / User Interfaces for your web and mobile applications'
     ),
     emoji('⚡ Teach Morden Tech Stack to help you land a job.'),
     emoji(
@@ -158,7 +158,7 @@ const educationInfo = {
       descBullets: [
         'I got a 4-year full scholarship.',
         'I scored 4 GPA in the 8th Semester',
-        'I was Class topper/Second topper for multiple occassions.',
+        'I was Class topper/Second topper on multiple occasions.',
       ],
     },
     // {
@@ -205,14 +205,20 @@ const workExperiences = {
       companylogo: require('./assets/images/spyro_logo.jpg'),
       date: 'Feb 2020 – Present',
       desc:
-        'Leading IT Training Institude Company Focused on trasforming today\'s students to tomorrow\'s professionals.',
+        `Leading IT Training Institute/ Software Development Company Focused on transforming
+         today's students to tomorrow's professionals.`,
       descBullets: [
-        'Training on Mobile and Web app design and development',
-        'Training on Artifical Intelligence, Machine learning',
-        'Training on Cloud and Database Solutions',
-        'Training on Graphics Design',
-        'Training on SEO Managements',
-        'Training on Process Automation',
+        'All kinds of mobile/web/desktop apps.',
+        'All kinds of Database Solutions.',
+        'All kinds of Cloud Solutions.',
+        'Social Media Promotion and Boosting.',
+        'All kinds of designing work.',
+        'Training on Mobile and Web app design and development.',
+        'Training on Artificial Intelligence, Machine learning.',
+        'Training on Cloud and Database Solutions.',
+        'Training on Graphics Design.',
+        'Training on SEO Managements.',
+        'Training on Process Automation.',
       ],
     },
     {
@@ -374,13 +380,13 @@ const proudOfSection = {
     },
     {
       title: 'Golden 1000 days',
-      subtitle: `G1K Days system was used to carry out the training, information management, and awareness program. The Government of Nepal, the European Union and
-      UNICEF launched the national “Golden 1000 days Public Awareness Campaign”.
-       Led by the National Planning Commission (NPC),
-        the campaign aims to raise the awareness of
-         the unique window of opportunity between a women’s pregnancy
-          and her child’s second birthday, to shape a healthier 
-        and a more prosperous future. G1K also aimed at going completely digital.`,
+      subtitle: `G1K was used to carry out the training, information management,
+       and awareness program. The Government of Nepal, the European Union,
+        and UNICEF launched the national “Golden 1000 days Public Awareness Campaign”. 
+        Led by the National Planning Commission (NPC), the campaign aims to 
+        raise awareness of the unique window of opportunity between a women’s pregnancy
+         and her child’s second birthday, to shape a healthier and more prosperous
+          future. G1K also aimed at going completely digital.`,
       image: require('./assets/images/g1k_pic.png'),
       footerLink: [
         { name: 'See more', url: 'https://blogs.worldbank.org/endpovertyinsouthasia/engaging-communities-golden-1000-days-nepal' },
@@ -414,13 +420,13 @@ const blogSection = {
         'https://mithunadhikari.medium.com/should-you-try-all-the-popular-programming-languages-and-frameworks-721a5989f873',
       title: 'Should you try all the popular programming languages and frameworks?',
       description:
-        'A little word of advice for students and people starting to learn programming on how you should and should not start learning.',
+        'A little word of advice for students and people starting to learn to program on how you should and should not start learning.',
     },
     {
       url: 'https://drive.google.com/file/d/1mOUu4Bkm-Y-LkvY1ErkRp4BmgQ7MVeyr/view?usp=sharing',
-      title: 'Customizing the Bigbuebutton Greenlight Customization',
+      title: 'Customizing the BigBuleButton Greenlight Customization',
       description:
-        'A comprehensive guide on how to set up BigBlueButton (https://bigbluebutton.org/) on your server. If you\'re trying to create a video conferencing system for your office/school for free,then BBB is your go to option.',
+        'A comprehensive guide on how to set up BigBlueButton (https://bigbluebutton.org/) on your server. If you\'re trying to create a video conferencing system for your office/school for free, then BBB is your go-to option.',
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -466,8 +472,9 @@ const contactInfo = {
   title: emoji('Contact Me ☎️'),
   subtitle:
     'Discuss a project or just want to say hi? My Inbox is open for all.',
-  number: '+977-984701199',
+  number: '+977-9847501199',
   emailAddress: 'mithunadhikari40@gmail.com',
+  name: 'Mithun Adhikari'
 };
 
 // Twitter Section
