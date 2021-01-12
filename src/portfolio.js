@@ -424,7 +424,7 @@ const blogSection = {
     },
     {
       url: 'https://drive.google.com/file/d/1mOUu4Bkm-Y-LkvY1ErkRp4BmgQ7MVeyr/view?usp=sharing',
-      title: 'Customizing the BigBuleButton Greenlight Customization',
+      title: 'Customizing the BigBlueButton Greenlight Customization',
       description:
         'A comprehensive guide on how to set up BigBlueButton (https://bigbluebutton.org/) on your server. If you\'re trying to create a video conferencing system for your office/school for free, then BBB is your go-to option.',
     },
