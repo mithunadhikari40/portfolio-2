@@ -152,6 +152,7 @@ const educationInfo = {
     {
       schoolName: 'Nepal College Of Information Technology',
       logo: require('./assets/images/ncit_logo.jpg'),
+      alt: 'Nepal College of Information Technology',
       subHeader: 'Bachelor in Software Engineering.',
       duration: 'OCt 2014 - Oct 2018',
       // desc: 'Participated in the research of XXX and published 3 papers.',
@@ -203,6 +204,7 @@ const workExperiences = {
       role: 'Co-Founder',
       company: 'Spyro Infosys Pvt. Ltd.',
       companylogo: require('./assets/images/spyro_logo.jpg'),
+      alt:'Spryo Infosys Pvt. Ltd.',
       date: 'Feb 2020 – Present',
       desc:
         `Leading IT Training Institute/ Software Development Company Focused on transforming
@@ -225,6 +227,7 @@ const workExperiences = {
       role: 'Software Developer',
       company: 'Microsoft Innovation Center, Nepal',
       companylogo: require('./assets/images/unlimited_logo.png'),
+      alt: 'Microsoft Innovation Center, Nepal',
       date: 'Aug 2017 – Feb 2020',
       desc: 'Leading Software Development Company Focused on Machine Learning, Artificial Intelligence, Big Data, NLP (Natural Language Processing), Mobile Application, Web Application, Cloud solutions, Database Solution.',
     },
@@ -232,6 +235,7 @@ const workExperiences = {
       role: 'Flutter Instructor',
       company: 'Broadway Infosys',
       companylogo: require('./assets/images/broadway_logo.jpg'),
+      alt:'Broadway Infosys Pvt. Ltd',
       date: 'Nov 2018 – Apr 2020',
       desc:
         'Broadway Infosys Nepal is one of the best inclusive computer training institutes in Kathmandu, Nepal.',
@@ -347,6 +351,7 @@ const proudOfSection = {
           which helped 26,912 households to rebuild their houses.
           The project implemented is known as Gorkha Housing Reconstruction Project (GHRP)`,
       image: require('./assets/images/rims_house.jpg'),
+      alt: "Reconstuction in Gorkha after the earthquake.",
       footerLink: [
         {
           name: 'Report',
@@ -370,6 +375,7 @@ const proudOfSection = {
       subtitle:
         `Post-Flood Recovery management system was used to mobilize, visualize, and manage data of over 31,800 houses in Sunsari, Saptari, Sarlahi, Dhanusha, Mahottari, Rautahat, and Parsa districts, which were damaged by the Flood of 2017. The project was funded by China and implemented by UNDP through which at the field level collaborated with newly elected governments in carrying out the distribution of a package of non-food items, which includes shawls, blankets, cooking utensils, and many more.`,
       image: require('./assets/images/post_flood.jpg'),
+      alt: "Post Flood Recovery Program in Sarlahi",
       footerLink: [
         {
           name: 'See more',
@@ -388,6 +394,7 @@ const proudOfSection = {
          and her child’s second birthday, to shape a healthier and more prosperous
           future. G1K also aimed at going completely digital.`,
       image: require('./assets/images/g1k_pic.png'),
+      alt: "Golden 1000 days brand ambassador, Paras Khadka, Dipak Raj Giri and Dipa Shree Niroula",
       footerLink: [
         { name: 'See more', url: 'https://blogs.worldbank.org/endpovertyinsouthasia/engaging-communities-golden-1000-days-nepal' },
         {
