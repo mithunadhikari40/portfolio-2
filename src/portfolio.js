@@ -455,7 +455,7 @@ const talkSection = {
     },
     {
       title: 'Data mobilization in RIMS',
-      subtitle: 'Working with the UNDP Nepal team to enhance the app/web application that helps mobilize data of more than 26912 beneficiaries.UNDP Nepal with the Government of India is providing support to reconstruct earthquake affected houses in Gorkha and Unlimited technology is providing technology solution through the cloud, mobile/web application, data management.',
+      subtitle: 'Working with the UNDP Nepal team to enhance the app/web application that helps mobilize data of more than 26900 beneficiaries.UNDP Nepal with the Government of India is providing support to reconstruct earthquake affected houses in Gorkha and Unlimited technology is providing technology solution through the cloud, mobile/web application, data management.',
       event_url: 'https://www.facebook.com/nayna.shakya/posts/10157758860013324',
     },
   ],
