@@ -16,6 +16,8 @@ import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
 import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
+import MyGallery from "./gallery/gallery";
+
 import { StyleProvider } from "../contexts/StyleContext";
 import "./Main.css";
 import Profile from "./profile/Profile";
@@ -56,6 +58,8 @@ export default class Main extends Component {
           <Blogs />
           <Talks />
           <Twitter />
+          <MyGallery />
+
           <Podcast />
           <Profile />
           <Footer />
