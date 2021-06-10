@@ -204,7 +204,7 @@ const workExperiences = {
       role: 'Co-Founder',
       company: 'Spyro Infosys Pvt. Ltd.',
       companylogo: require('./assets/images/spyro_logo.jpg'),
-      alt:'Spryo Infosys Pvt. Ltd.',
+      alt: 'Spryo Infosys Pvt. Ltd.',
       date: 'Feb 2020 – Present',
       desc:
         `Leading IT Training Institute/ Software Development Company Focused on transforming
@@ -235,7 +235,7 @@ const workExperiences = {
       role: 'Flutter Instructor',
       company: 'Broadway Infosys',
       companylogo: require('./assets/images/broadway_logo.jpg'),
-      alt:'Broadway Infosys Pvt. Ltd',
+      alt: 'Broadway Infosys Pvt. Ltd',
       date: 'Nov 2018 – present',
       desc:
         'Broadway Infosys Nepal is one of the best inclusive computer training institutes in Kathmandu, Nepal.',
@@ -486,81 +486,270 @@ const contactInfo = {
 
 const photos = [
   {
-      src: require('./assets/images/manOnTable.svg'),
-      width: 4,
-      height: 3
-      , title: 'some image one'
-      , alt: 'some alternatte text here'
+    src: require('./assets/images/gallery/microsoft-build-1.jpg'),
+    width: 4,
+    height: 3
+    , title: 'Microsoft builds session at MIC Nepal, Mithun Adhikari presenting.'
+    , alt: 'Mithun Adhikari is talking about database design and solutions at the Microsoft build session.'
   },
   {
-      src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
-      width: 1,
-      height: 1, title: 'some image two',
-      alt: 'some alternatte text here'
-
-
-  },
-  {
-      src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
-      width: 3,
-      height: 4, title: 'some image one',
-      alt: 'some alternatte text here'
-
+    src: require('./assets/images/gallery/microsoft-build-2.jpg'),
+    width: 3,
+    height: 4, title: 'Microsoft builds session at MIC Nepal, Mithun Adhikari presenting.'
+    , alt: 'Mithun Adhikari is talking about database design and solutions at the Microsoft build session.'
 
   },
   {
-      src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
-      width: 3,
-      height: 4,
-      title: 'some image one',
-      alt: 'some alternatte text here'
+    src: require('./assets/images/gallery/microsoft-build-3.jpg'),
+    width: 3,
+    height: 4, title: 'Microsoft builds session at MIC Nepal, Mithun Adhikari presenting.'
+    , alt: 'Mithun Adhikari is talking about database design and solutions at the Microsoft build session.'
+
 
 
   },
   {
-      src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
-      width: 3,
-      height: 4,
-      title: 'some image one',
-      alt: 'some alternatte text here'
+    src: require('./assets/images/gallery/microsoft-build-4.jpg'),
+    width: 3,
+    height: 4,
+    title: 'Microsoft builds session at MIC Nepal, Mithun Adhikari presenting.'
+    , alt: 'Mithun Adhikari is talking about database design and solutions at the Microsoft build session.'
 
-
-  },
-  {
-      src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
-      width: 4,
-      height: 3,
-      title: 'some image one',
-      alt: 'some alternatte text here'
 
 
   },
   {
-      src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
-      width: 3,
-      height: 4,
-      title: 'some image one',
-      alt: 'some alternatte text here'
+    src: require('./assets/images/gallery/rims-event-1.jpg'),
+    width: 3,
+    height: 4,
+    title: 'Data mobilization in RIMS, Mithun Adhikari presenting.'
+    , alt: 'Mithun Adhikari is talking about the RIMS system at the RIMS data mobilization session.'
 
-  },
-  {
-      src: "https://source.unsplash.com/PpOHJezOalU/800x599",
-      width: 4,
-      height: 3,
-      title: 'some image one',
-      alt: 'some alternatte text here'
+
 
 
   },
   {
-      src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
-      width: 4,
-      height: 3,
-      title: 'some image one',
-      alt: 'some alternatte text here'
+    src: require('./assets/images/gallery/rims-event-2.jpg'),
+    width: 4,
+    height: 3,
+    title: 'Data mobilization in RIMS, Mithun Adhikari presenting.'
+    , alt: 'Mithun Adhikari is talking about the RIMS system at the RIMS data mobilization session.'
 
 
-  }
+  },
+  {
+    src: require('./assets/images/gallery/rims-event-3.jpg'),
+    width: 3,
+    height: 4,
+    title: 'Data mobilization in RIMS, Mithun Adhikari presenting.'
+    , alt: 'Mithun Adhikari is talking about the RIMS system at the RIMS data mobilization session.'
+
+
+  },
+  {
+    src: require('./assets/images/gallery/rims-event-4.jpg'),
+    width: 3,
+    height: 4,
+    title: 'Data mobilization in RIMS, Mithun Adhikari presenting.'
+    , alt: 'Mithun Adhikari is talking about the RIMS system at the RIMS data mobilization session.'
+  },
+
+
+
+
+
+  {
+    src: require('./assets/images/gallery/personal/bhaktapur-darbar-square.jpg'),
+    width: 1,
+    height: 1,
+    title: 'Mithun Adhikari with his friends in Bhaktapur Darbar square.'
+    , alt: 'Mithun Adhikari with his friends in Bhaktapur Darbar square.'
+  },
+
+  {
+    src: require('./assets/images/gallery/personal/coding-competion-at-ncit-as-a-judge.jpg'),
+    width: 1,
+    height: 1,
+    title: 'Mithun Adhikari at NCIT in a coding competition as a judge.'
+    , alt: 'Mithun Adhikari at NCIT in a coding competition as a judge.'
+  },
+
+  {
+    src: require('./assets/images/gallery/personal/dashain-with-family.jpg'),
+    width: 1,
+    height: 1,
+    title: 'Dashain with family.'
+    , alt: 'Dashain with family.'
+  },
+
+  {
+    src: require('./assets/images/gallery/personal/farewell-nci.jpg'),
+    width: 1,
+    height: 1,
+    title: '2018 farewell program.'
+    , alt: '2018 farewell program.'
+  },
+
+  {
+    src: require('./assets/images/gallery/personal/graduation-image.jpg'),
+    width: 1,
+    height: 1,
+    title: 'Mithun Adhikari in Pokhara in his Graduation ceremony.'
+    , alt: 'Mithun Adhikari in Pokhara in his Graduation ceremony.'
+  },
+
+  {
+    src: require('./assets/images/gallery/personal/illam-tea-field.jpg'),
+    width: 1,
+    height: 1,
+    title: 'Mithun Adhikari with friends in Illam.'
+    , alt: 'Mithun Adhikari with friends in Illam.'
+  },
+  {
+    src: require('./assets/images/gallery/personal/in-2015.jpg'),
+    width: 1,
+    height: 1,
+    title: 'Mithun Adhikari in 2015.'
+    , alt: 'Mithun Adhikari in 2015.'
+  },
+  {
+    src: require('./assets/images/gallery/personal/national-flag.jpg'),
+    width: 1,
+    height: 1,
+    title: 'Mithun Adhikari with national flag in Illam.'
+    , alt: 'Mithun Adhikari with national flag in Illam.'
+  },
+
+  {
+    src: require('./assets/images/gallery/personal/national-flag-hoasting.jpg'),
+    width: 1,
+    height: 1,
+    title: 'Mithun Adhikari hoasting national flag in Illam.'
+    , alt: 'Mithun Adhikari hoasting national flag in Illam.'
+  },
+
+  {
+    src: require('./assets/images/gallery/personal/new-year-with-friends.jpg'),
+    width: 1,
+    height: 1,
+    title: 'Mithun Adhikari and his friends in field in new year.'
+    , alt: 'Mithun Adhikari and his friends in field in new year.'
+  },
+
+  {
+    src: require('./assets/images/gallery/personal/night-time.jpg'),
+    width: 1,
+    height: 1,
+    title: 'Night time in Kathmandu, Nepal.'
+    , alt: 'Night time in Kathmandu, Nepal.'
+  },
+
+  {
+    src: require('./assets/images/gallery/personal/no-idea-what-is-this.jpg'),
+    width: 1,
+    height: 1,
+    title: 'No idea, what I was doing.'
+    , alt: 'No idea, what I was doing.'
+  },
+
+  {
+    src: require('./assets/images/gallery/personal/pashupati.jpg'),
+    width: 1,
+    height: 1,
+    title: 'Pashupati Darshan in the dusk.'
+    , alt: 'Pashupati Darshan in the dusk.'
+  },
+
+  {
+    src: require('./assets/images/gallery/personal/pizza.jpg'),
+    width: 1,
+    height: 1,
+    title: 'Enjoying pizza.'
+    , alt: 'Enjoying pizza.'
+  },
+
+  {
+    src: require('./assets/images/gallery/personal/project-submission-colleage.jpg'),
+    width: 1,
+    height: 1,
+    title: 'Mithun Adhikari presenting his project.'
+    , alt: 'Mithun Adhikari presenting his project.'
+  },
+
+  {
+    src: require('./assets/images/gallery/personal/snow_sikkim.jpg'),
+    width: 1,
+    height: 1,
+    title: 'Snow in  Sikkim, India.'
+    , alt: 'Snow in  Sikkim, India.'
+  },
+
+  {
+    src: require('./assets/images/gallery/personal/sorgadyari.JPG'),
+    width: 1,
+    height: 1,
+    title: 'Mithun Adhikari and his friends in Sworgadwari, Pyuthan.'
+    , alt: 'Mithun Adhikari and his friends in Sworgadwari, Pyuthan.'
+  },
+  {
+    src: require('./assets/images/gallery/personal/sorgadyari1.JPG'),
+    width: 1,
+    height: 1,
+    title: 'Mithun Adhikari and his friends in Sworgadwari, Pyuthan.'
+    , alt: 'Mithun Adhikari and his friends in Sworgadwari, Pyuthan.'
+  },
+  {
+    src: require('./assets/images/gallery/personal/sorgadyari2.jpg'),
+    width: 1,
+    height: 1,
+    title: 'Mithun Adhikari and his friends in Sworgadwari, Pyuthan.'
+    , alt: 'Mithun Adhikari and his friends in Sworgadwari, Pyuthan.'
+  },
+  {
+    src: require('./assets/images/gallery/personal/sorgadyari3.JPG'),
+    width: 1,
+    height: 1,
+    title: 'Mithun Adhikari and his friends in Sworgadwari, Pyuthan.'
+    , alt: 'Mithun Adhikari and his friends in Sworgadwari, Pyuthan.'
+  },
+  {
+    src: require('./assets/images/gallery/personal/sorgadyari4.jpg'),
+    width: 1,
+    height: 1,
+    title: 'Mithun Adhikari and his friends in Sworgadwari, Pyuthan.'
+    , alt: 'Mithun Adhikari and his friends in Sworgadwari, Pyuthan.'
+  },
+  {
+    src: require('./assets/images/gallery/personal/sorgadyari5.jpg'),
+    width: 1,
+    height: 1,
+    title: 'Mithun Adhikari and his friends in Sworgadwari, Pyuthan.'
+    , alt: 'Mithun Adhikari and his friends in Sworgadwari, Pyuthan.'
+  },
+  {
+    src: require('./assets/images/gallery/personal/sorgadyari6.jpg'),
+    width: 1,
+    height: 1,
+    title: 'Mithun Adhikari and his friends in Sworgadwari, Pyuthan.'
+    , alt: 'Mithun Adhikari and his friends in Sworgadwari, Pyuthan.'
+  },
+
+  {
+    src: require('./assets/images/gallery/personal/statue.jpg'),
+    width: 1,
+    height: 1,
+    title: 'Mithun Adhikari with a statue.'
+    , alt: 'Mithun Adhikari with a statue.'
+  },
+  {
+    src: require('./assets/images/gallery/personal/sun-rise.jpg'),
+    width: 1,
+    height: 1,
+    title: 'Watchin a sun-rise.'
+    , alt: 'Watchin a sun-rise.'
+  },
+  
 ];
 
 
