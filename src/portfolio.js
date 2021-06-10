@@ -19,7 +19,7 @@ const greeting = {
     },
     {
       title: emoji(
-        '🚀 IT Instructor, Worked at Broadway Infosys.'
+        '🚀 Flutter Instructor at Broadway Infosys.'
       ),
     },
     {
@@ -208,7 +208,7 @@ const workExperiences = {
       date: 'Feb 2020 – Present',
       desc:
         `Leading IT Training Institute/ Software Development Company Focused on transforming
-         today's students to tomorrow's professionals.`,
+         today's students into tomorrow's professionals.`,
       descBullets: [
         'All kinds of mobile/web/desktop apps.',
         'All kinds of Database Solutions.',
@@ -236,7 +236,7 @@ const workExperiences = {
       company: 'Broadway Infosys',
       companylogo: require('./assets/images/broadway_logo.jpg'),
       alt:'Broadway Infosys Pvt. Ltd',
-      date: 'Nov 2018 – Apr 2020',
+      date: 'Nov 2018 – present',
       desc:
         'Broadway Infosys Nepal is one of the best inclusive computer training institutes in Kathmandu, Nepal.',
     },
@@ -373,7 +373,7 @@ const proudOfSection = {
     {
       title: 'Post-Flood Recovery Management System',
       subtitle:
-        `Post-Flood Recovery management system was used to mobilize, visualize, and manage data of over 31,800 houses in Sunsari, Saptari, Sarlahi, Dhanusha, Mahottari, Rautahat, and Parsa districts, which were damaged by the Flood of 2017. The project was funded by China and implemented by UNDP through which at the field level collaborated with newly elected governments in carrying out the distribution of a package of non-food items, which includes shawls, blankets, cooking utensils, and many more.`,
+        `The Post-Flood Recovery management system was used to mobilize, visualize, and manage data of over 31,800 houses in Sunsari, Saptari, Sarlahi, Dhanusha, Mahottari, Rautahat, and Parsa districts, which were damaged by the Flood of 2017. The project was funded by China and implemented by UNDP through which at the field level collaborated with newly elected governments in carrying out the distribution of a package of non-food items, which includes shawls, blankets, cooking utensils, and many more.`,
       image: require('./assets/images/post_flood.jpg'),
       alt: "Post Flood Recovery Program in Sarlahi",
       footerLink: [
@@ -419,7 +419,7 @@ const proudOfSection = {
 const blogSection = {
   title: 'Blogs',
   subtitle:
-    'With Love for Developing cool stuff, I love to write and teach others what I have learnt.',
+    'With a Love for Developing cool stuff, I love to write and teach others what I have learnt.',
 
   blogs: [
     {
@@ -455,7 +455,7 @@ const talkSection = {
     },
     {
       title: 'Data mobilization in RIMS',
-      subtitle: 'Working with UNDP Nepal team to enhance the app/web application that helps mobilize data of more than 26900 beneficiaries.UNDP Nepal with Government of India is providing support to reconstruct earthquake affected houses in Gorkha and Unlimited technology is providing technology solution through cloud, mobile/web application, data management.',
+      subtitle: 'Working with the UNDP Nepal team to enhance the app/web application that helps mobilize data of more than 26912 beneficiaries.UNDP Nepal with the Government of India is providing support to reconstruct earthquake affected houses in Gorkha and Unlimited technology is providing technology solution through the cloud, mobile/web application, data management.',
       event_url: 'https://www.facebook.com/nayna.shakya/posts/10157758860013324',
     },
   ],
